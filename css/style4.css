@@ -1,47 +1,35 @@
-table{
-    border: 1px solid black;
-    width: 50vh;
-    height: 9vh;
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
 }
-
-.table1{
-    border-bottom: 0px;
-    background-color: rgb(126, 235, 199);
-    
+.body {
+    display: flex;
 }
-
-.table2, .table2 td{
-    height: 25vh;
-    border-collapse: collapse;
-    border-top: 0px;
-    border-bottom: 0px;
+.body div:first-child{
+   width: 75%;
+   height: 50px;
+   background: blue;
 }
-
-.td3{
-    border: 5px solid white;
-    background-color: antiquewhite;
-    height: 10vh;
-    width: 100vh;
-    padding: 0px;
+.body div:last-child {
+    width: 25%;
+    height: 50px;
+    background: orange;
 }
-
-    
-.table3{
-    border-top: white;
-    border-bottom: white;
-    padding: 0px;
+.body-2 {
+    display: flex;
 }
-
-.td1{
-    width: 35vh;
-    background-color: rgb(174, 213, 247);
+.body-2 div {
+    margin-left: 10px;
+    background: red;
+    width: 25%;
+    height: 50px;
 }
-
-.td2{
-    background-color: pink;
+.body-2 div:first-child {
+    margin-left: 0px;
 }
-
-.table4{
-    border-top: 0px;
-    background-color: rgb(184, 117, 184);
+.footer {
+    width: 100%;
+    height: 50px;
+    background: green;
 }
