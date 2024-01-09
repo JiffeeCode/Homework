@@ -1,0 +1,47 @@
+table{
+    border: 1px solid black;
+    width: 50vh;
+    height: 9vh;
+}
+
+.table1{
+    border-bottom: 0px;
+    background-color: rgb(126, 235, 199);
+    
+}
+
+.table2, .table2 td{
+    height: 25vh;
+    border-collapse: collapse;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.td3{
+    border: 5px solid white;
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 100vh;
+    padding: 0px;
+}
+
+    
+.table3{
+    border-top: white;
+    border-bottom: white;
+    padding: 0px;
+}
+
+.td1{
+    width: 35vh;
+    background-color: rgb(174, 213, 247);
+}
+
+.td2{
+    background-color: pink;
+}
+
+.table4{
+    border-top: 0px;
+    background-color: rgb(184, 117, 184);
+}

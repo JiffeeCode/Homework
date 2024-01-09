@@ -1,0 +1,40 @@
+button{
+    background-color: rgb(2, 2, 252);
+    color: rgb(156, 156, 255);
+    border-radius: 5px;
+    border-color: rgb(156, 156, 255);
+    padding: 4px 7px;
+    
+}
+
+#tt:hover{
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    color: white;
+}
+
+.game1{
+    border-radius: 10px;
+    border-color: blue;
+    color: white;
+}
+
+.game1:hover{
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.other{
+    color: white;
+    border-color: blue;
+    padding: 5px 10px;
+}
+
+.other:hover{
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+body{
+    background-color: blue;
+}
