@@ -1,0 +1,24 @@
+.card{
+    width: 200px;
+    height: 80px;
+    background: rgb(52, 51, 51);
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cardchild{
+    padding-top: 30px;
+    
+}
+
+.fa-ellipsis-h{
+    padding-left: 100px;
+}
+
+.fa-bus{
+    padding-left: 65px;
+}
