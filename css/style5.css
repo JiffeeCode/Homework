@@ -1,0 +1,21 @@
+.icons{
+    display: flex;
+}
+
+#i1{
+    background-color: whitesmoke;
+    width: 90px;
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: gray;
+}
+
+.word{
+    padding-top: 3px;
+}
