@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lemom';
+    src: url(../font/Lemon-Regular.ttf);
+}
+body {
+    background: rgb(36, 99, 181);
+    font-family: "Lemom", sans-serif;
+    color: white;
+}
+.section-header {
+    margin-top: 40px;
+}
+.icon-header {
+    width: 10px;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.icon-header img {
+    width: 60%;
+}
+.title-header {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.link a {
+    color: white !important;
+}
+.btn-light {
+    border: none;
+}
+.btn-light:hover {
+    background: rgb(235,31,38);
+    color: white;
+    border: none;
+}
+.container .col-6,
+.container .col-4,
+.container .col-2{
+    padding: 0px !important;
+}
+.father {
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+.father input {
+    padding: 5px;
+    margin-right: 5px;
+}
+.fa-home {
+    font-size: 20px;
+    color: rgba(0, 255, 195, 0.654);
+
+}
+.fa-home:hover {
+    color: white;
+    cursor: pointer;
+}
